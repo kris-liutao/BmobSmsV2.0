@@ -33,6 +33,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
     }
 
     private void initEvent() {
+        //监听初始化
         login_btn.setOnClickListener(this);
         Message_btn.setOnClickListener(this);
     }
